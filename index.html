@@ -1,17 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio-portal-creations</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Abdelmordy Allam - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">Ahmed Allam</h1>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <body>
-    <div id="root"></div>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ahmed Abdelmordy Allam</h1>
+                <h2>Senior Mobile Developer</h2>
+                <p>Specializing in Flutter, iOS, and Android development</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Ahmed-3lam" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://ahmed-allam.site" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="mailto:3lam.ahmed@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Flutter and mobile developer with over five years of experience designing, developing, and optimizing mobile applications across various industries, including e-learning, e-commerce, healthcare, and POS systems. Proficient in state management, clean architecture, and Agile methodologies. Strong ability to mentor and lead teams, delivering high-quality applications efficiently.</p>
+                    
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Faculty of Petroleum & Mining Engineering, Suez University</h4>
+                        <p>Bachelor of Petroleum Engineering (2013 - 2018)</p>
+                        <p>Grade: Very Good | Graduation Project Grade: Excellent</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Information Technology Institute (ITI) - Intensive Training Program</h4>
+                        <ul>
+                            <li>Mobile Development Track (Android, iOS & Flutter)</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>SCRUM Training</li>
+                            <li>Communication & Presentation Training</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/profile.jpg" alt="Ahmed Allam" id="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mobile Developer | Izam (Daftra - POS)</h3>
+                        <span class="date">Jan 2024 - Present</span>
+                        <ul>
+                            <li>Developing and maintaining POS applications for the Middle East market.</li>
+                            <li>Collaborating with backend teams to enhance application performance and security.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter Developer | Abwaab</h3>
+                        <span class="date">Mar 2022 - Jan 2024</span>
+                        <ul>
+                            <li>Developed and optimized an e-learning platform with millions of users.</li>
+                            <li>Implemented key features: payments, social core, notifications.</li>
+                            <li>Conducted bug fixing, code reviews, and collaborated in an Agile environment.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter & Dart Instructor | ITI & DEPI</h3>
+                        <span class="date">Jun 2023 - Present, Part-Time</span>
+                        <ul>
+                            <li>Trained over 300 students in Flutter and Dart development, focusing on best practices and state management.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter Developer | Nebras Tech</h3>
+                        <span class="date">Apr 2022 - Nov 2023, Part-Time</span>
+                        <ul>
+                            <li>Led the development of multiple medical applications.</li>
+                            <li>Published 5 apps on Play Store, App Store, and App Gallery.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter Developer | Ingaz Co.</h3>
+                        <span class="date">Jul 2021 - Apr 2022</span>
+                        <ul>
+                            <li>Developed mobile applications in e-commerce, social media, HR, and e-learning sectors.</li>
+                            <li>Utilized BLoC & Provider state management with Firebase & REST APIs.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter Developer & Project Manager | Da3m Medical App</h3>
+                        <span class="date">Freelance</span>
+                        <ul>
+                            <li>Managed a team and developed a full-fledged medical application.</li>
+                            <li>Integrated Zoom SDK for video streaming and Fawry for payments.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Flutter Developer | Noval Co.</h3>
+                        <span class="date">Apr 2020 - May 2022, Part-Time</span>
+                        <ul>
+                            <li>Worked on social and taxi apps, solved critical issues, and managed store publishing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/abwaab.jpg" alt="Abwaab App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Abwaab – E-Learning App</h3>
+                        <p>An e-learning platform with millions of users. Developed key features including payments, social core, and notifications.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>BLoC</span>
+                            <span>Clean Architecture</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.abwaab.abwaab" target="_blank" class="btn btn-sm">Play Store</a>
+                            <a href="https://apps.apple.com/app/abwaab/id1470148349" target="_blank" class="btn btn-sm">App Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/da3m.jpg" alt="Da3m Medical App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Da3m – Medical App</h3>
+                        <p>A comprehensive medical application with features like video streaming via Zoom SDK and Fawry payment integration.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Zoom SDK</span>
+                            <span>Fawry SDK</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.da3m.app" target="_blank" class="btn btn-sm">Play Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/daftra.jpg" alt="Daftra-POS App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Daftra-POS</h3>
+                        <p>Point of Sale application for the Middle East market.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>iOS</span>
+                            <span>Android</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.daftra.pos" target="_blank" class="btn btn-sm">Play Store</a>
+                            <a href="https://apps.apple.com/app/daftra-pos/id1234567890" target="_blank" class="btn btn-sm">App Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/enerpize.jpg" alt="Enerpize-POS App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Enerpize-POS</h3>
+                        <p>Point of Sale application with advanced features.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>iOS</span>
+                            <span>Android</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.enerpize.pos" target="_blank" class="btn btn-sm">Play Store</a>
+                            <a href="https://apps.apple.com/app/enerpize-pos/id1234567891" target="_blank" class="btn btn-sm">App Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/kafey.jpg" alt="Kafey ERP System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Kafey – ERP System</h3>
+                        <p>Enterprise Resource Planning system.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.kafey.erp" target="_blank" class="btn btn-sm">Play Store</a>
+                            <a href="https://apps.apple.com/app/kafey-erp/id1234567892" target="_blank" class="btn btn-sm">App Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projects/dentalore.jpg" alt="Dentalore App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Dentalore</h3>
+                        <p>Dental healthcare application.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.dentalore.app" target="_blank" class="btn btn-sm">Play Store</a>
+                            <a href="https://apps.apple.com/app/dentalore/id1234567893" target="_blank" class="btn btn-sm">App Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Flutter Development</h3>
+                    <ul class="skill-list">
+                        <li>State Management: BLoC, Cubit, Provider, GetX</li>
+                        <li>Architecture: Clean Architecture, Dependency Injection, Repository Pattern</li>
+                        <li>APIs: REST API, GraphQL, Firebase, WebSockets</li>
+                        <li>Testing: Unit Testing, Widget Testing</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Native iOS (Swift)</h3>
+                    <ul class="skill-list">
+                        <li>SwiftUI, Storyboard, Alamofire, CocoaPods</li>
+                        <li>Location Services, Maps Integration, MVC Architecture</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Native Android (Kotlin & Java)</h3>
+                    <ul class="skill-list">
+                        <li>Jetpack Compose, Retrofit, MVVM</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Other Technologies</h3>
+                    <ul class="skill-list">
+                        <li>JavaScript, Node.js, MATLAB, C#, HTML, CSS</li>
+                        <li>Git, Postman, Adobe XD, Figma, Photoshop, Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteering" class="volunteering">
+        <div class="container">
+            <h2 class="section-title">Volunteering & Community Engagement</h2>
+            <div class="volunteering-content">
+                <ul class="volunteering-list">
+                    <li>Founder of Adventure Reading for Programmers (Helped over 1000 programmers enhance their reading habits)</li>
+                    <li>President of Badr Family (Suez University) (Organized engineering courses and student support activities)</li>
+                    <li>IT Member at SPE (Suez University)</li>
+                    <li>Member of Resala Charity Association (Supporting orphans and underprivileged communities)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+201113024425</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:3lam.ahmed@gmail.com">3lam.ahmed@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <p><a href="https://ahmed-allam.site" target="_blank">ahmed-allam.site</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/Ahmed-3lam" target="_blank">github.com/Ahmed-3lam</a></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ahmed Abdelmordy Allam. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Ahmed-3lam" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://ahmed-allam.site" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="mailto:3lam.ahmed@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>

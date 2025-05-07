@@ -1,69 +1,54 @@
-# Welcome to your Lovable project
+# Ahmed Allam - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my skills, experience, and projects as a Senior Mobile Developer.
 
-**URL**: https://lovable.dev/projects/c7126c45-5aa0-461d-8e37-7fed3d07c015
+## Features
 
-## How can I edit this code?
+- Responsive design that works on all devices
+- Clean and modern UI with smooth animations
+- Sections for about me, work experience, projects, skills, and contact
+- Interactive navigation menu
+- Project showcase with links to app stores
+- Contact form
 
-There are several ways of editing your application.
+## Deployment to GitHub Pages
 
-**Use Lovable**
+To deploy this portfolio to GitHub Pages:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c7126c45-5aa0-461d-8e37-7fed3d07c015) and start prompting.
+1. Create a new repository on GitHub named `yourusername.github.io` (replace "yourusername" with your actual GitHub username)
 
-Changes made via Lovable will be committed automatically to this repo.
+2. Initialize git in this directory and push to your GitHub repository:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/yourusername.github.io.git
+git push -u origin main
 ```
 
-**Edit a file directly in GitHub**
+3. Go to your repository settings on GitHub, navigate to "Pages" section, and ensure the site is being built from the main branch.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+4. Your portfolio will be available at `https://yourusername.github.io` after a few minutes.
 
-**Use GitHub Codespaces**
+## Customization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Replace placeholder images in the `img/` directory with your actual project screenshots and profile photo
+- Update project links to point to your actual app store listings
+- Modify content in `index.html` to reflect your most current information
 
-## What technologies are used for this project?
+## Local Development
 
-This project is built with .
+To view the site locally, simply open the `index.html` file in your browser or use a local development server.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Technologies Used
 
-## How can I deploy this project?
+- HTML5
+- CSS3 (with Flexbox and Grid layouts)
+- JavaScript (ES6+)
+- Font Awesome for icons
+- Google Fonts
 
-Simply open [Lovable](https://lovable.dev/projects/c7126c45-5aa0-461d-8e37-7fed3d07c015) and click on Share -> Publish.
+## License
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+MIT
